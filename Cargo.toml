@@ -18,7 +18,8 @@ name = "server"
 name = "client"
 
 [dependencies]
-pahkat-client = { path = "../pahkat-client-core" }
+pahkat-client = { git = "https://github.com/pahkat/pahkat-client-core" }
+
 tonic = "0.8.3"
 pin-project = "1.0.12"
 hyper = "0.14.23"
